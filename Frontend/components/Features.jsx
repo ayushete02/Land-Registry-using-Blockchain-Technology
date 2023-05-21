@@ -11,7 +11,44 @@ import SmartContract from '../public/images/contract.jpg'
 
 export const Features = () => {
   return (
-    <>
+    <>  <section className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
+    <div className="relative z-20 items-center px-0 py-24 mx-auto flex flex-col max-w-7xl">
+      <div className="w-5/6 gap-4 mx-auto mb-8 text-center flex flex-col md:w-2/3">
+        <h2
+          data-aos="zoom-y-out"
+          className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
+        >
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-amber to-neon-red">
+            Land
+          </span>{" "}
+          View.
+        </h2>
+        <p
+          data-aos="zoom-y-out"
+          data-aos-delay="150"
+          className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
+        >
+          Find Your Land's Value for sold
+        </p>
+      </div>
+      <div className="w-[100%] p-4 h-[80vh]  md:p-12 bg-gradient-to-br rounded-xl ">
+        <div
+          data-aos="zoom-y-out"
+          data-aos-delay="300"
+          className="relative flex justify-center w-full h-full overflow-hidden shadow-lg flex-col rounded-lg md:rounded-xl"
+        >
+          <Image
+            src={MacBarSrc}
+
+            className="rounded-t-lg md:rounded-t-xl z-10"
+            alt="Mac window bar"
+          />
+           
+      <iframe className="w-full h-[97%] -mt-12 z-0" src="https://landgate.com/app/listings?isLandowner=true&resourceType=land" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
       {/* Feature 1 */}
       <section className="relative overflow-hidden bg-gray-100 dark:bg-gray-800">
         <div className="relative z-20 items-center px-0 py-24 mx-auto flex flex-col max-w-7xl">

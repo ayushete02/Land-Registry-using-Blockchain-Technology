@@ -73,16 +73,13 @@ export const Hero = () => {
           data-aos="fade-left"
           className="relative flex flex-col justify-center w-full max-w-2xl overflow-hidden rounded-lg shadow-lg md:rounded-xl"
         >
+          {/* <img src='https://landgate.com/assets/images/Land-Investment-Platform---LandGate_Real_Estate_Solutions.gif'/> */}
           <Image
             src={MacBarSrc}
             className="rounded-t-lg md:rounded-t-xl"
             alt="Mac window bar"
           />
-          {/* <Image
-            src={Img}
-            className="rounded-t-lg md:rounded-t-xl"
-            alt="Mac window bar"
-          /> */}
+          
           <Image
             src={Img}
             className=""
@@ -95,11 +92,11 @@ export const Hero = () => {
             playsInline
             aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
             tabIndex={-1}
-          > */}
-            {/* Need both for Safari compatibility */}
-            {/* <source src="/videos/total.webm" type="video/webm" />
+          >
+            Need both for Safari compatibility
+             <source src="/videos/total.webm" type="video/webm" /> 
             <source src="/videos/total.mp4" type="video/mp4" />
-          </video> */}
+          </video>  */}
         </div>
       </div>
     </section>
