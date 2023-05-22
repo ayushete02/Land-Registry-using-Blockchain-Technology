@@ -38,14 +38,14 @@ export const Hero = () => {
             data-aos="zoom-y-out"
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
-            SECURING{" "}
+          SECURING {" "}
             <span className="bg-gradient-to-l from-rose-500 via-violet-600 to-blue-700 bg-clip-text text-transparent">
-              INDIA'S.
+             LAND, 
             </span>
             <br />
-            PROPERTY RIGHTS{" "}
+            EMPOWERING {" "}
             <span className="bg-gradient-to-r from-rose-500 via-violet-600 to-blue-700 bg-clip-text text-transparent">
-              TOGETHER.
+            OWNERSHIP.
             </span>
           </h1>
           <p

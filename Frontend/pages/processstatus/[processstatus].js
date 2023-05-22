@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Navbar from "../../components/navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 import {
   LoadingOutlined,
   SmileOutlined,
@@ -19,7 +19,7 @@ import {
   Form,
   Input,
 } from "antd";
-import { Footer } from "../../components/footer";
+import { Footer } from "../../components/Footer";
 import { useRouter, Router } from "next/router";
 import { UpdateData } from "../../utils/updateData";
 import {
@@ -29,7 +29,7 @@ import {
   PaymentBuyertoSeller,
 } from "../../utils/makePayment";
 import { Chat } from "../../PushModule/@pushprotocol/uiweb";
-// import { Chat } from "@pushprotocol/uiweb";
+import bgimage from "../../public/images/white.png"
 
 var id = "";
 var Owner = "";
@@ -110,6 +110,7 @@ const processstatus = () => {
   const [openprice, setOpenprice] = useState(false);
   const [opennotify, setOpennotify] = useState(false);
   const [opendocument, setOpendocument] = useState(false);
+  const [openchat, setOpenChat] = useState(false);
   const [Dataset, setDataset] = useState([]);
   // const [Owner, setOwner] = useState("");
   // const [Tokenid, setTokenid] = useState("");
@@ -341,7 +342,30 @@ const processstatus = () => {
           src="https://kuula.co/share/5hDfC?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1"
         ></iframe>
       </Modal>
-
+      <Modal
+        title="XMTP Chat"
+        centered
+        open={openchat}
+        onOk={() => setOpenChat(false)}
+        onCancel={() => setOpenChat(false)}
+        width={1000}
+        okButtonProps={{
+          disabled: true,
+          style: {
+            display: "none",
+          },
+        }}
+        cancelButtonProps={{
+          disabled: true,
+          style: {
+            display: "none",
+          },
+        }}
+      >
+     <iframe  width="100%"
+          height="640"
+      src="https://xmtp.chat/inbox" frameborder="0"></iframe>
+      </Modal>
       <Modal
         title="Land Document"
         centered
@@ -401,6 +425,12 @@ const processstatus = () => {
                 >
                   View Document
                 </button>
+                <button
+                  className="bg-blue-500 text-white font-bold py-2 px-4 rounded w-[30%] hover:bg-blue-700  mx-2 my-2 "
+                  onClick={() => setOpenChat(true)}
+                >
+                  XMTP Chat
+                </button>
                 {ProcessStatus < 3 ? (
                   <button
                     className="bg-blue-500 text-white font-bold py-2 px-4 rounded w-[30%] hover:bg-blue-700  mx-2 my-2 "
@@ -425,7 +455,7 @@ const processstatus = () => {
                 {PaymentStatus == true ? (
                   <button
                     disabled
-                    className="bg-green-500  text-white font-bold py-2 px-4 rounded   w-[62%] hover:bg-green-700 cursor-not-allowed  mx-2 my-2 "
+                    className="bg-green-500  text-white font-bold py-2 px-4 rounded   w-[30%] hover:bg-green-700 cursor-not-allowed  mx-2 my-2 "
                   >
                     Payment Done
                   </button>
@@ -440,7 +470,7 @@ const processstatus = () => {
                           Price
                         )
                       }
-                      className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[62%] hover:bg-green-700  mx-2 my-2 "
+                      className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[30%] hover:bg-green-700  mx-2 my-2 "
                     > 
                       Send Token ({parseInt(Price)*0.05}LR)
                     </button>
@@ -448,7 +478,7 @@ const processstatus = () => {
                 ) : ProcessStatus < 4 ? (
                   <button
                     disabled
-                    className="disabled:opacity-25 bg-blue-500  text-white font-bold py-2 px-4 rounded cursor-not-allowed w-[62%] hover:bg-blue-700  mx-2 my-2 "
+                    className="disabled:opacity-25 bg-blue-500  text-white font-bold py-2 px-4 rounded cursor-not-allowed w-[30%] hover:bg-blue-700  mx-2 my-2 "
                   >
                     Pending Processes
                   </button>
@@ -462,7 +492,7 @@ const processstatus = () => {
                         parseInt(Price) * 0.06
                       )
                     }
-                    className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[62%] hover:bg-green-700  mx-2 my-2 "
+                    className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[30%] hover:bg-green-700  mx-2 my-2 "
                   >
                     Pay for Stamp Duty ({parseInt(parseInt(Price) * 0.06)}LR)
                   </button>
@@ -477,7 +507,7 @@ const processstatus = () => {
                           Price
                         )
                       }
-                      className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[62%] hover:bg-green-700  mx-2 my-2 "
+                      className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded  w-[30%] hover:bg-green-700  mx-2 my-2 "
                     >
                       Make Payment
                     </button>
@@ -485,7 +515,7 @@ const processstatus = () => {
                 ) : (
                   <button
                     disabled
-                    className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded cursor-not-allowed w-[62%] hover:bg-green-700  mx-2 my-2 "
+                    className="disabled:opacity-25 bg-green-500  text-white font-bold py-2 px-4 rounded cursor-not-allowed w-[30%] hover:bg-green-700  mx-2 my-2 "
                   >
                     You are not allow to Pay
                   </button>

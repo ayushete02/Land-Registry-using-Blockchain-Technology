@@ -10,11 +10,11 @@ import {
   Checkbox,
   Space,
 } from "antd";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/Navbar";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import Metamask from "../components/metamask";
 import Web3 from 'web3';
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import axios from "axios";
 
 
