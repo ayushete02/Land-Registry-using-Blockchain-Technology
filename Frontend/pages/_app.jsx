@@ -13,7 +13,7 @@ import { useDarkMode, useEffectOnce } from "usehooks-ts";
 //   import("vivid-studio/style.css");
 // }
 
-const siteTitle = "Land Registry";
+const siteTitle = "Land Chain";
 const siteDescription =
   "Make CSS styling a breeze with Vivid's in-browser visual editor that automatically updates your code.";
 

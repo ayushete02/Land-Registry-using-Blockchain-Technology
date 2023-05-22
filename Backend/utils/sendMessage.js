@@ -7,7 +7,7 @@ const client = new twilio(accountSid, authToken);
 
 async function sendMessage(phoneNo, otp)  {
     await client.messages.create({
-        body: 'Your OTP for Land Registry is ' + otp,
+        body: 'Your OTP for LandChain is ' + otp,
         from: process.env.TWILIO_PHONE_NO,
         to: phoneNo
     })

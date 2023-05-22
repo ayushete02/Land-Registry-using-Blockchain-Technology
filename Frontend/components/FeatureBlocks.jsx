@@ -19,7 +19,7 @@ export const FeatureBlocks = () => {
             data-aos="zoom-y-out"
             className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
           >
-            FEATURES OF LAND REGISTRY{" "}
+            FEATURES OF LAND CHAIN{" "}
             <br></br>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
               USING BLOCKCHAIN
@@ -52,7 +52,7 @@ export const FeatureBlocks = () => {
             ACCESSIBILITY
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-            Land registry data can be stored on a decentralized ledger that is accessible to anyone with an internet connection.
+            Land Chain data can be stored on a decentralized ledger that is accessible to anyone with an internet connection.
             </p>
           </div>
           {/* Block 3 */}

@@ -1,4 +1,4 @@
-# Land Registry
+# LandChain
 
 ## PS: 
 Land records in India are managed and maintained by the Indian Revenue System (IRS). Accelerate the process of land registration in India and reduce fraud related to ownership, existence, exchange, and transactions. Developed blockchain based secure sharable land records repository for Indian Revenue System.
