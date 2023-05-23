@@ -78,20 +78,6 @@ LandChain can provide benefits such as streamlined property transactions, effici
 
    ```
 
-## Contributing
-
-Contributions to this project are welcome. To contribute, follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch.
-
-3. Make your modifications.
-
-4. Commit and push your changes.
-
-5. Submit a pull request.
-
 ## Demonstration 
 
 - PPT LINK: https://docs.google.com/presentation/d/1cKM_Lj1ICXoLxDkfO0pRdZ3C4GZ9Oxi0/edit?usp=drivesdk&ouid=101748959506220961092&rtpof=true&sd=true
