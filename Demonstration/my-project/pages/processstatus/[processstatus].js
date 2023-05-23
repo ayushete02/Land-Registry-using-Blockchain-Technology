@@ -176,9 +176,8 @@ const Processstatus = () => {
     console.log("Function Called");
   }
 
-  useEffect(() => {
     FetchData();
-  }, []);
+  
 
   setUpdateData();
 
