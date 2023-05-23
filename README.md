@@ -12,11 +12,11 @@
 
 - [Challenges we ran into](#challenges-we-ran-into)
 
-- [Accomplishments that we're proud of](#accomplishments-that-we-are-proud-of)
+- [Accomplishments that we're proud of](#challenges-we-ran-into)
 
 - [What we learned](#what-we-learned)
 
-- [What's next for LandChain](#What's-next-for-LandChain)
+- [What's next for LandChain](#what-we-learned)
 
 
 ## Inspiration
