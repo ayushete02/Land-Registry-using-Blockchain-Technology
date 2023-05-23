@@ -40,7 +40,7 @@ const props = {
 
 
 
-const Form = () => {
+const AddLand = () => {
   const [metadataStatus, setmetadataStatus] = useState(false);
   const [data, setData] = useState([]);
   const [Dataset, setDataset] = useState([]);
@@ -335,4 +335,4 @@ function SellLand(PID) {
   );
 };
 
-export default Form;
+export default AddLand;
