@@ -37,7 +37,7 @@ const cors = require("cors");
 //   },
 // ];
 
-const inspectordashboard = () => {
+const Inspectordashboard = () => {
   const [open, setOpen] = useState(false);
   const [Dataset, setDataset] = useState([]);
 
@@ -261,4 +261,4 @@ const inspectordashboard = () => {
   );
 };
 
-export default inspectordashboard;
+export default Inspectordashboard;
