@@ -12,11 +12,11 @@ import {
   Table,
 } from "antd";
 
-import Navbar from "../components/navbar/Navbar";
-import { Footer } from "../components/Footer";
+import Navbar from "../my-project/components/navbar/Navbar";
+import { Footer } from "../my-project/components/Footer";
 
-import { getMetadataURL } from "../utils/mintNFT";
-import { UpdateData } from "../utils/updateData";
+import { getMetadataURL } from "../my-project/utils/mintNFT";
+import { UpdateData } from "../my-project/utils/updateData";
 
 const props = {
   name: "file",
