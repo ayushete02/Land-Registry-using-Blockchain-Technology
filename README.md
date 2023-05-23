@@ -9,7 +9,7 @@
 
 <hr/>
 
-[PPT Demonstration](https://github.com/ayushete02/Land-Registry-using-Blockchain-Technology/blob/main/Demonstration/Readme.md)
+[Step Demonstration](https://github.com/ayushete02/Land-Registry-using-Blockchain-Technology/blob/main/Demonstration/Readme.md)
 
 <hr/>
 
