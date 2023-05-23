@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ScatteredSpheres } from "../svg/ScatteredSpheres";
 import MacBarSrc from "../public/images/mac-bar.png";
 import Img from "../public/images/landmeasure.jpg"
+import Link from "next/link";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -60,12 +61,12 @@ export const Hero = () => {
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
-            <a
+            <Link
                 href='/dashboard'
                 className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-[#004E89] hover:bg-[#003A66]  w-fit"
               >
                 GET STARTED
-              </a>
+              </Link>
           </div>
         </div>
         {/* Image */}

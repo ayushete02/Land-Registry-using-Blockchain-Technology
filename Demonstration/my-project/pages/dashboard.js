@@ -18,7 +18,7 @@ import { Footer } from "../components/Footer";
 import axios from "axios";
 
 
-const dashboard = () => {
+const Dashboard = () => {
   const [modalseller, setModalSeller] = useState(false);
   const [modalbuyer, setModalBuyer] = useState(false);
   const [modalinstpector, setModalInspector] = useState(false);
@@ -441,4 +441,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
