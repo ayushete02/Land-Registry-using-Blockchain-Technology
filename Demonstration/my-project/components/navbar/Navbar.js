@@ -2,7 +2,7 @@ import React from 'react';
 import Metamask from '../metamask';
 import Link from 'next/link';
 import { useRouter } from 'next/router'
-import { Chat } from '../../PushModule/@pushprotocol/uiweb';
+// import { Chat } from '../../PushModule/@pushprotocol/uiweb';
 
 const Navbar = () => {
   
@@ -62,12 +62,12 @@ const Navbar = () => {
     </ul>
   </div> */}
   </div>
-  <Chat
+  {/* <Chat
         account="0x1D853e5a1eE20b61dc3187558Eda7F3b8eD14AB7" //user address
         supportAddress="0x7ED790A1Ac108b9A50e24f5c5E061df59e3673a7" //support address
         apiKey="jVPMCRom1B.iDRMswdehJG7NpHDiECIHwYMMv6k2KzkPJscFIDyW8TtSnk4blYnGa8DIkfuacU0"
         env="staging"
-      />
+      /> */}
 </nav>
   );
 }
