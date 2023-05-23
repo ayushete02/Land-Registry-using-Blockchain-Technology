@@ -30,6 +30,7 @@ import {
 } from "../../utils/makePayment";
 import { Chat } from "../../PushModule/@pushprotocol/uiweb";
 import bgimage from "../../public/images/white.png"
+import Image from "next/image";
 
 var id = "";
 var Owner = "";
@@ -105,7 +106,7 @@ async function getaddress() {
   }
 }
 
-const processstatus = () => {
+const Processstatus = () => {
   const [open3d, setOpen3d] = useState(false);
   const [openprice, setOpenprice] = useState(false);
   const [opennotify, setOpennotify] = useState(false);
@@ -523,7 +524,7 @@ const processstatus = () => {
               </div>
             </Col>
             <Col span={12}>
-              <img
+              <Image
                 onClick={() => setOpen3d(true)}
                 className="m-auto w-[500px] h-48 rounded-2xl cursor-pointer hover:blur-sm"
                 src={ImageURL}
@@ -595,4 +596,4 @@ const processstatus = () => {
   );
 };
 
-export default processstatus;
+export default Processstatus;

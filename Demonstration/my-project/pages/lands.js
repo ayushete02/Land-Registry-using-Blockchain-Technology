@@ -10,6 +10,7 @@ import Metamask from "../components/metamask";
 import processstatus from "./processstatus/[processstatus]";
 import Router from "next/router";
 import { UpdateData } from "../utils/updateData";
+import Image from "next/image";
 
 const onChange = (value) => {
   console.log(`selected ${value}`);
@@ -211,9 +212,9 @@ const Lands = () => {
 
                 {FilterDataset &&
                   FilterDataset.map((data) => (
-                    <div className="inline-block px-3 cursor-pointer">
+                    <div className="inline-block px-3 cursor-pointer" key={true}>
                       <div className="w-[500px] h-[410px] max-w-xl overflow-hidden rounded-lg shadow-md bg-white text-black  hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                        <img
+                        <Image
                           onClick={() => setOpen(true)}
                           className="p-2 w-[500px] h-48 rounded-2xl"
                           src={data.ImageURL}
@@ -239,6 +240,7 @@ const Lands = () => {
                         </div>
                         <div className="m-auto text-center">
                           <button
+                          
                             onClick={() => setOpen(true)}
                             className="bg-blue-500 w-[46%]  hover:bg-blue-700 text-white font-bold py-2 mx-2 px-4 my-2 rounded"
                           >
