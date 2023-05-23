@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/Navbar";
 import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import { Button, Progress, Table } from "antd";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import axios from "axios";
 import { MainUpdateData, UpdateData } from "../utils/updateData";
 import { TransferOwnership } from "../utils/ContractPlugins";

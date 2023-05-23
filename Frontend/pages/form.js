@@ -12,8 +12,8 @@ import {
   Table,
 } from "antd";
 
-import Navbar from "../components/navbar/navbar";
-import { Footer } from "../components/footer";
+import Navbar from "../components/navbar/Navbar";
+import { Footer } from "../components/Footer";
 
 import { getMetadataURL } from "../utils/mintNFT";
 import { UpdateData } from "../utils/updateData";
@@ -94,7 +94,7 @@ function SellLand(PID) {
 
   const onFinish = (values) => {
     setData(values);
-    // console.log("Success:", values);
+    console.log("Success:", values);
     getMetadataURL(
       values.district,
       values.name,
@@ -287,7 +287,7 @@ function SellLand(PID) {
               >
                 <Input />
               </Form.Item>
-
+{/* 
               <Form.Item
                 label="Insert Land Image"
                 name="landimage"
@@ -301,9 +301,9 @@ function SellLand(PID) {
                 <Upload {...props}>
                   <Button icon={<UploadOutlined />}>Upload LandImage</Button>
                 </Upload>
-              </Form.Item>
+              </Form.Item> */}
 
-              <Form.Item
+              {/* <Form.Item
                 label="Insert AdharCard Document"
                 name="adharCard"
                 rules={[
@@ -316,7 +316,7 @@ function SellLand(PID) {
                 <Upload {...props}>
                   <Button icon={<UploadOutlined />}>Upload Adharcard</Button>
                 </Upload>
-              </Form.Item>
+              </Form.Item> */}
 
               <Form.Item>
                 <button

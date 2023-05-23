@@ -32,7 +32,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
       <div className="flex flex-row items-center gap-1">
         <div className="text-3xl font-bold">
           <span className="dark:text-slate-200 text-gray-700 ">
-            LandChain
+            LAND CHAIN
           </span>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button, Modal, Card } from "antd";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/navbar/Navbar";
 import { Select } from "antd";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 
 import { retrieveNFT } from "../utils/retrieveNFT";
 import axios from "axios";

@@ -57,7 +57,7 @@ const dashboard = () => {
         console.log(response);
         alert(response.data);
         console.log(
-          "Adhar Card "+aadhar+" Sucessfull Verified!!"
+          "User "+aadhar+" Sucessfull Verified!!"
         )        
         if (user == 'seller'){
           window.location = "/form";
@@ -115,7 +115,7 @@ const dashboard = () => {
     }
     else{
     alert(
-      "Please inser Correct Adhar Card"
+      "Please inser Correct User ID"
     )
     }
   };
@@ -219,12 +219,12 @@ const dashboard = () => {
           autoComplete="off"
         >
           <Form.Item
-            label="Adhar Number"
+            label="User ID"
             name="Adhar Number"
             rules={[
               {
                 required: true,
-                message: "Please input your Adhar Number!",
+                message: "Please input your User ID!",
               },
             ]}
           >
@@ -307,12 +307,12 @@ const dashboard = () => {
           autoComplete="off"
         >
         <Form.Item
-            label="Adhar Number"
+            label="User ID"
             name="Adhar Number"
             rules={[
               {
                 required: true,
-                message: "Please input your Adhar Number!",
+                message: "Please input your User ID!",
               },
             ]}
           >
