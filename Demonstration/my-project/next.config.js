@@ -3,4 +3,14 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+const isProd = process.env.NODE_ENV === "production";
+
+module.exports = {
+  nextConfig,
+  images: {
+    "loader": "akamai",
+    "path": ""
+  },
+  trailingSlash: true,
+  assetPrefix: isProd ? "https://your-domain.com" : "",
+}
