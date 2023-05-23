@@ -28,7 +28,7 @@ export const Features = () => {
           data-aos-delay="150"
           className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
         >
-          Find Your Land's Value for sold
+          Find Your Lands Value for sold
         </p>
       </div>
       <div className="w-[100%] p-4 h-[80vh]  md:p-12 bg-gradient-to-br rounded-xl ">
