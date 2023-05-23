@@ -62,17 +62,20 @@ In a LandChain system, each transaction or update related to land records is rec
 
 ## Built with
 
-- Polygon (version X.X.X)
+- `Polygon`
 
-- XMTP Protocol (version X.X.X)
+- `Lighthouse`
 
-- Huddle (version X.X.X)
+- `Tableland`
 
-- Lighthouse (version X.X.X)
+- `Push Protocol`
 
-- Metamask browser extension
+- `XMTP Protocol`
 
-- Tableland
+- `Huddle`
+
+- `Metamask`
+
 
 ## How we built it
 
