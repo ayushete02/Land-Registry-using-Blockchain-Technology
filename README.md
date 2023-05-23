@@ -12,7 +12,7 @@
 
 - [Challenges we ran into](#challenges-we-ran-into)
 
-- [Accomplishments that we're proud of](#accomplishments-that-we're-proud-of)
+- [Accomplishments that we're proud of](#accomplishments-that-we-are-proud-of)
 
 - [What we learned](#what-we-learned)
 
