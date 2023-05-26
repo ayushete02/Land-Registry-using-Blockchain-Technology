@@ -6,6 +6,7 @@ Land Registry Contract (Polygon MATIC)
 https://mumbai.polygonscan.com/token/0xb249741c5d024c9bf0cb1cc93a8d4b804a2058c1
 
 Land Registry Contract (Mantle)
+
 Contract: 0x28534cA9020cECfdd16562e94bc6DB8068c54f26
 
 
