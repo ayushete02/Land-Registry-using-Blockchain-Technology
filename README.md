@@ -2,6 +2,13 @@
 
 "LandChain" refers to a blockchain-based system or platform specifically designed for land registry and property management purposes. It utilizes the power of blockchain technology to create a decentralized and transparent network that securely records and manages information related to land ownership, transfers, and other relevant data.
 
+Land Registry Contract (Polygon MATIC)
+https://mumbai.polygonscan.com/token/0xb249741c5d024c9bf0cb1cc93a8d4b804a2058c1
+
+Land Registry Contract (Mantle)
+Contract: 0x28534cA9020cECfdd16562e94bc6DB8068c54f26
+
+
 <hr/>
 
 [![](https://i.ibb.co/7kYR0v5/Screenshot-33-4.png)](https://drive.google.com/file/d/1bv5WtchpeXeUhgCLp_MkK_D5y3MDDslU/view?usp=drivesdk)
